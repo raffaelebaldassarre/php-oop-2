@@ -14,6 +14,26 @@
             $this->age = $age;
             $this->gender = $gender;
         }
+
+        public function getName(){
+            return $this->name;
+        }
+    
+        public function getLastname(){
+            return $this->lastname;
+        }
+    
+        public function getNickname(){
+            return $this->nickname;
+        }
+    
+        public function getAge(){
+            return $this->age;
+        }
+
+        public function getGender(){
+            return $this->gender;
+        }
     }
 
 ?>
