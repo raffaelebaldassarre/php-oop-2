@@ -79,6 +79,19 @@
                     </div>
             <?php } ?>
         </div>
+        <h2>Moderatori</h2>
+        <div class="container">
+            <?php
+                foreach ($moderators as $value) { ?>
+                    <div class="card">
+                        <p>Nome: <?php echo $value -> getname() ?></p>
+                        <p>Cognome: <?php echo $value -> getlastname() ?></p>
+                        <p>Nickname: <?php echo $value -> getnickname() ?></p>
+                        <p>Età: <?php echo $value -> getage() ?></p>
+                        <p>Genere: <?php echo $value -> getgender() ?></p>
+                    </div>
+            <?php } ?>
+        </div>
     </main>
 
 </body>

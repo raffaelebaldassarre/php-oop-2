@@ -17,6 +17,22 @@
             $this->invia_messaggi_a_nome_pagina = $invia_messaggi_a_nome_pagina;
 
         }
+
+        public function getGestisce_ruoli_e_impostazioni(){
+            return $this->gestisce_ruoli_e_impostazioni;
+        }
+    
+        public function getModifica_pagina_e_agginge_app(){
+            return $this->lmodifica_pagina_e_agginge_app;
+        }
+    
+        public function getCrea_elimina_post(){
+            return $this->crea_elimina_post;
+        }
+    
+        public function getInvia_messaggi_a_nome_pagina(){
+            return $this->invia_messaggi_a_nome_pagina;
+        }
     }
     
 ?>
